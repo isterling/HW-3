@@ -1,0 +1,16 @@
+int i;
+int w;
+
+void setup ()
+{
+size(500,500);
+background(0);
+}
+
+void draw() {
+  rect(20,20,460,460);
+  fill(0);
+  for(int i=20; i<480; i+=20){
+     line(i,20,i,480);
+     stroke(100);
+     strokeWeight(8);
